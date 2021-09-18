@@ -1,0 +1,33 @@
+{
+  "name": "@cosuno/challenge-backend",
+  "version": "1.0.0",
+  "description": "Cosuno coding test.",
+  "main": "./dist/main.js",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon -r dotenv/config --exec ts-node src --config nodemon.json",
+    "test": "NODE_ENV=test jest --runInBand --forceExit --detectOpenHandles"
+  },
+  "keywords": [],
+  "author": "Alexandre Santos",
+  "private": true,
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.10",
+    "@types/express": "^4.17.11",
+    "@types/jest": "^26.0.20",
+    "@types/node": "^14.14.31",
+    "@types/supertest": "^2.0.10",
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.7",
+    "supertest": "^6.1.3",
+    "ts-jest": "^26.5.2",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.2",
+    "webpack": "^5.24.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}

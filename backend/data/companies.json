@@ -1,0 +1,10 @@
+{
+  "companies": [
+    {
+      "companyName": "test",
+      "logo": "test",
+      "City": "test",
+      "specialties": ["Plumbing", "Electrical"]
+    }
+  ]
+}
