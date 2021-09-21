@@ -1,10 +1,438 @@
 {
   "companies": [
     {
-      "companyName": "test",
-      "logo": "test",
-      "City": "test",
-      "specialties": ["Plumbing", "Electrical"]
+      "guid": "7294434b-8e9a-4ff6-8e46-3a21fe03548d",
+      "logo": "https://placekitten.com/50/50",
+      "companyName": "Corepan",
+      "city": "Weogufka",
+      "specialties": [
+        "Plumbing",
+        "Carpenter"
+      ]
+    },
+    {
+      "guid": "cab706e8-97b4-4fdc-bf23-6eecda18127c",
+      "logo": "https://placekitten.com/50/50",
+      "companyName": "Earbang",
+      "city": "Fairlee",
+      "specialties": [
+        "Painting"
+      ]
+    },
+    {
+      "guid": "094c094e-1efb-44da-a20d-d67ed1771aa3",
+      "logo": "https://placekitten.com/50/50",
+      "companyName": "Opticom",
+      "city": "Utting",
+      "specialties": [
+        "Electrical",
+        "Welding"
+      ]
+    },
+    {
+      "guid": "dcd3934f-2b32-43a9-90ce-f94dd6e7438d",
+      "logo": "https://placekitten.com/50/50",
+      "companyName": "Balooba",
+      "city": "Northridge",
+      "specialties": [
+        "Roofer"
+      ]
+    },
+    {
+      "guid": "f0662e24-fbf1-4cbe-83ab-b0d2108d5693",
+      "logo": "https://placekitten.com/50/50",
+      "companyName": "Hatology",
+      "city": "Tryon",
+      "specialties": [
+        "Plumbing",
+        "Excavation"
+      ]
+    },
+    {
+      "guid": "b6117575-3b64-4128-b92f-4fa31fc2c03c",
+      "logo": "https://placekitten.com/50/50",
+      "companyName": "Miracula",
+      "city": "Montura",
+      "specialties": [
+        "Flooring",
+        "Carpenter"
+      ]
+    },
+    {
+      "guid": "d5547efc-1779-4ee6-8b85-6ef5434f5788",
+      "logo": "https://placekitten.com/50/50",
+      "companyName": "Phormula",
+      "city": "Osage",
+      "specialties": [
+        "Welding"
+      ]
+    },
+    {
+      "guid": "0a7437ea-dc94-4d1f-b333-c7ed27ef175e",
+      "logo": "https://placekitten.com/50/50",
+      "companyName": "Utara",
+      "city": "Englevale",
+      "specialties": [
+        "Carpenter"
+      ]
+    },
+    {
+      "guid": "23729444-7364-4b39-9bf2-dd3140baee73",
+      "logo": "https://placekitten.com/50/50",
+      "companyName": "Zidox",
+      "city": "Zeba",
+      "specialties": [
+        "Painting"
+      ]
+    },
+    {
+      "guid": "2776c5f6-d01e-4045-a266-760641b0e8c0",
+      "logo": "https://placekitten.com/50/50",
+      "companyName": "Ezent",
+      "city": "Stewartville",
+      "specialties": [
+        "Roofer"
+      ]
+    },
+    {
+      "guid": "1a7ac4d8-be0d-4d82-ad0b-b61e9f3eed58",
+      "logo": "https://placekitten.com/50/50",
+      "companyName": "Datagen",
+      "city": "Ilchester",
+      "specialties": [
+        "Painting"
+      ]
+    },
+    {
+      "guid": "a9297248-424e-4b37-ac35-ba0e9b09a89d",
+      "logo": "https://placekitten.com/50/50",
+      "companyName": "Quailcom",
+      "city": "Centerville",
+      "specialties": [
+        "Roofer",
+        "Carpenter"
+      ]
+    },
+    {
+      "guid": "a2529377-1e99-4f2e-bee3-5906a6d9acc8",
+      "logo": "https://placekitten.com/50/50",
+      "companyName": "Prosely",
+      "city": "Washington",
+      "specialties": [
+        "Carpenter"
+      ]
+    },
+    {
+      "guid": "932c499b-a62e-4bf5-b086-18a96bdc88ed",
+      "logo": "https://placekitten.com/50/50",
+      "companyName": "Grainspot",
+      "city": "Vale",
+      "specialties": [
+        "Carpenter"
+      ]
+    },
+    {
+      "guid": "1b2bb7fe-7e58-45cf-8cc0-7108f8f8a95e",
+      "logo": "https://placekitten.com/50/50",
+      "companyName": "Indexia",
+      "city": "Kingstowne",
+      "specialties": [
+        "Painting"
+      ]
+    },
+    {
+      "guid": "920c186f-47fe-4ebd-8587-6907778b6930",
+      "logo": "https://placekitten.com/50/50",
+      "companyName": "Uneeq",
+      "city": "Thomasville",
+      "specialties": [
+        "Welding"
+      ]
+    },
+    {
+      "guid": "e1532a63-ddca-426f-a805-e93f6b2ff9c5",
+      "logo": "https://placekitten.com/50/50",
+      "companyName": "Vetron",
+      "city": "Dubois",
+      "specialties": [
+        "Welding"
+      ]
+    },
+    {
+      "guid": "a535ab5b-fae4-4725-b998-6f86d4ca7ba5",
+      "logo": "https://placekitten.com/50/50",
+      "companyName": "Digirang",
+      "city": "Johnsonburg",
+      "specialties": [
+        "Electrical",
+        "Plumbing"
+      ]
+    },
+    {
+      "guid": "48b39004-c9cd-4365-8aa7-77526748262f",
+      "logo": "https://placekitten.com/50/50",
+      "companyName": "Sequitur",
+      "city": "Abrams",
+      "specialties": [
+        "Plumbing"
+      ]
+    },
+    {
+      "guid": "3b3193a8-64ce-45e1-82dc-3e43739d9dde",
+      "logo": "https://placekitten.com/50/50",
+      "companyName": "Geostele",
+      "city": "Troy",
+      "specialties": [
+        "Electrical"
+      ]
+    },
+    {
+      "guid": "c713ed43-6617-4d9c-b508-21b366c603b9",
+      "logo": "https://placekitten.com/50/50",
+      "companyName": "Rodeology",
+      "city": "Woodburn",
+      "specialties": [
+        "Excavation"
+      ]
+    },
+    {
+      "guid": "6fdef8ef-0498-43c3-9bb9-cce8dc4d9718",
+      "logo": "https://placekitten.com/50/50",
+      "companyName": "Aquoavo",
+      "city": "Rosedale",
+      "specialties": [
+        "Plumbing"
+      ]
+    },
+    {
+      "guid": "a29fdf85-e1c6-4616-8400-628bc4652041",
+      "logo": "https://placekitten.com/50/50",
+      "companyName": "Flexigen",
+      "city": "Magnolia",
+      "specialties": [
+        "Excavation"
+      ]
+    },
+    {
+      "guid": "c314bb49-6173-42a5-90df-e1d22a49c0ec",
+      "logo": "https://placekitten.com/50/50",
+      "companyName": "Maxemia",
+      "city": "Choctaw",
+      "specialties": [
+        "Painting",
+        "Welding"
+      ]
+    },
+    {
+      "guid": "4bc3d052-7f4a-40fa-8080-082fff4d7d80",
+      "logo": "https://placekitten.com/50/50",
+      "companyName": "Combogen",
+      "city": "Hardyville",
+      "specialties": [
+        "Carpenter",
+        "Roofer"
+      ]
+    },
+    {
+      "guid": "eee41f72-170c-4bfc-a23f-590bdbc96fa0",
+      "logo": "https://placekitten.com/50/50",
+      "companyName": "Accel",
+      "city": "Conway",
+      "specialties": [
+        "Roofer",
+        "Painting"
+      ]
+    },
+    {
+      "guid": "cffceb0b-8b21-47d7-8d01-543862fd8252",
+      "logo": "https://placekitten.com/50/50",
+      "companyName": "Geofarm",
+      "city": "Fairforest",
+      "specialties": [
+        "Excavation",
+        "Plumbing"
+      ]
+    },
+    {
+      "guid": "cd2b7f9a-996b-49a0-88e0-b36c55f7ab20",
+      "logo": "https://placekitten.com/50/50",
+      "companyName": "Solgan",
+      "city": "Loveland",
+      "specialties": [
+        "Welding",
+        "Excavation"
+      ]
+    },
+    {
+      "guid": "099d0dd6-78c5-4b00-8a1f-d9ecf96ca06e",
+      "logo": "https://placekitten.com/50/50",
+      "companyName": "Imkan",
+      "city": "Brooktrails",
+      "specialties": [
+        "Excavation"
+      ]
+    },
+    {
+      "guid": "6809a88c-f08a-474b-a64a-f66071ebb71c",
+      "logo": "https://placekitten.com/50/50",
+      "companyName": "Geologix",
+      "city": "Cecilia",
+      "specialties": [
+        "Plumbing"
+      ]
+    },
+    {
+      "guid": "1318aba9-f5e4-4835-89e4-7020a7767acf",
+      "logo": "https://placekitten.com/50/50",
+      "companyName": "Octocore",
+      "city": "Roosevelt",
+      "specialties": [
+        "Welding"
+      ]
+    },
+    {
+      "guid": "2292f405-8495-47db-b4e5-60461668fe1f",
+      "logo": "https://placekitten.com/50/50",
+      "companyName": "Adornica",
+      "city": "Rushford",
+      "specialties": [
+        "Carpenter",
+        "Flooring"
+      ]
+    },
+    {
+      "guid": "7d3b5423-dfb4-412c-a047-844e8b33c0fc",
+      "logo": "https://placekitten.com/50/50",
+      "companyName": "Zogak",
+      "city": "Ebro",
+      "specialties": [
+        "Welding",
+        "Electrical"
+      ]
+    },
+    {
+      "guid": "2650d530-7ff4-4a23-b4d0-4059102596f9",
+      "logo": "https://placekitten.com/50/50",
+      "companyName": "Nitracyr",
+      "city": "Tilden",
+      "specialties": [
+        "Carpenter",
+        "Roofer"
+      ]
+    },
+    {
+      "guid": "3d21ee1f-db81-4a93-8705-cde6496d5940",
+      "logo": "https://placekitten.com/50/50",
+      "companyName": "Cedward",
+      "city": "Grimsley",
+      "specialties": [
+        "Electrical",
+        "Plumbing"
+      ]
+    },
+    {
+      "guid": "85910612-3dfc-45b5-95a1-cc3fb63daa23",
+      "logo": "https://placekitten.com/50/50",
+      "companyName": "Kangle",
+      "city": "Caspar",
+      "specialties": [
+        "Carpenter"
+      ]
+    },
+    {
+      "guid": "63b38d7a-ee5f-4688-807e-1a8b15392a50",
+      "logo": "https://placekitten.com/50/50",
+      "companyName": "Applica",
+      "city": "Richford",
+      "specialties": [
+        "Painting"
+      ]
+    },
+    {
+      "guid": "577ead85-a00f-43e5-ac2e-5961a73166ea",
+      "logo": "https://placekitten.com/50/50",
+      "companyName": "Flum",
+      "city": "Camas",
+      "specialties": [
+        "Welding"
+      ]
+    },
+    {
+      "guid": "3f8f4085-5136-4066-913d-8aa3dc472d39",
+      "logo": "https://placekitten.com/50/50",
+      "companyName": "Zanilla",
+      "city": "Retsof",
+      "specialties": [
+        "Plumbing",
+        "Excavation"
+      ]
+    },
+    {
+      "guid": "9a6454c7-0da9-44af-af08-f04705264dd0",
+      "logo": "https://placekitten.com/50/50",
+      "companyName": "Bizmatic",
+      "city": "Cawood",
+      "specialties": [
+        "Excavation"
+      ]
+    },
+    {
+      "guid": "eda6a215-c259-4a39-b65b-de2e85711fae",
+      "logo": "https://placekitten.com/50/50",
+      "companyName": "Neptide",
+      "city": "Thermal",
+      "specialties": [
+        "Roofer",
+        "Flooring"
+      ]
+    },
+    {
+      "guid": "46bc5da1-3d3f-4e06-8330-ee07b706a53c",
+      "logo": "https://placekitten.com/50/50",
+      "companyName": "Keengen",
+      "city": "Ticonderoga",
+      "specialties": [
+        "Painting"
+      ]
+    },
+    {
+      "guid": "44d212e7-e6dc-48b0-8db7-a223d1b07813",
+      "logo": "https://placekitten.com/50/50",
+      "companyName": "Omnigog",
+      "city": "Maury",
+      "specialties": [
+        "Plumbing",
+        "Excavation"
+      ]
+    },
+    {
+      "guid": "5f574575-6719-4def-9029-d622692475e1",
+      "logo": "https://placekitten.com/50/50",
+      "companyName": "Mantro",
+      "city": "Eggertsville",
+      "specialties": [
+        "Flooring",
+        "Electrical"
+      ]
+    },
+    {
+      "guid": "73963285-8040-4faa-95a0-02f9837147e3",
+      "logo": "https://placekitten.com/50/50",
+      "companyName": "Waterbaby",
+      "city": "Wawona",
+      "specialties": [
+        "Carpenter",
+        "Painting"
+      ]
+    },
+    {
+      "guid": "f5a9cf15-0d52-48d4-8339-c60f78c6c068",
+      "logo": "https://placekitten.com/50/50",
+      "companyName": "Ecraze",
+      "city": "Fairacres",
+      "specialties": [
+        "Carpenter" 
+      ]
     }
   ]
 }

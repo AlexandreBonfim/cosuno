@@ -1,6 +1,7 @@
 export type Company = {
+    guid: string
     companyName: string
     logo: string
-    City: string
+    city: string
     specialties: Array<string>
 }
