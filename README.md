@@ -13,3 +13,30 @@ The following should be possible:
   - Filter the list using a set of checkboxes to include only those companies which offer a particular speciality (e.g. only Plumbing).
   Create a simple API based on Node.js that returns the list of companies to the frontend. The API can read the data from a simple JSON source, no database setup is required.
   In addition, make a list of ideas on how you would improve this application if you had more time to work on it.
+
+## Setup
+
+In order to start the backend server, follow these steps:
+
+- Open a terminal in the `../backend` folder
+- Install packages using `yarn`
+- Run the server using `yarn start`
+- Check the server is running correctly by perform a GET request to http://localhost:3001/health
+
+In order to start the frontend server, follow these steps:
+
+- Open a terminal in the `../frontend` folder
+- Install packages using `yarn`
+- Run the server using `yarn start`
+
+### Tests
+
+You can run the test suites via the `yarn test` command in the `../backend` folder.
+
+### Ideas
+
+- Memorize same endpoint calls to don't call api for same 'search term'
+- Pagination 
+- Polish frontend(going through warnings and hooks)
+- Add CRUD 
+- frontend tests

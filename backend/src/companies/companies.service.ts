@@ -12,7 +12,8 @@ const getFilterByName = (term: string): Company[] => {
 }
 
 const getFilterBySpecialty = (terms: string[]): Company[] => {
-  if (!terms) throw new Error('Missing search terms')
+  console.log(terms)
+  if (terms.length <= 0) throw new Error('Missing search terms')
 
   const companies = getCompanies().filter(company => company.specialties.some(spe => terms.includes(spe)))
 
@@ -20,18 +21,18 @@ const getFilterBySpecialty = (terms: string[]): Company[] => {
 }
 
 const getSpecialties = (): string[] => {
-  const uniqueSpecialities : string[] = []
+  const uniqueSpecialties : string[] = []
   const companies = getCompanies()
   
   companies.forEach(({specialties}) => {
     specialties.forEach(item => {
-      let existItem = uniqueSpecialities.some(specialty => specialty === item)
+      let existItem = uniqueSpecialties.some(specialty => specialty === item)
       
-      if(!existItem) uniqueSpecialities.push(item)  
+      if(!existItem) uniqueSpecialties.push(item)  
     })
   })
   
-  return uniqueSpecialities; 
+  return uniqueSpecialties; 
 }
 
 export { getMany, getSpecialties, getFilterByName, getFilterBySpecialty }

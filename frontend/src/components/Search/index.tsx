@@ -9,7 +9,7 @@ export function Search() {
     const { filterBySpecialty, filterByName } = useContext(CompaniesContext);
 
     const [specialties, setSpecialties] = useState<string[]>([]);
-    const [chosenSpeciality, setChosenSpeciality] = useState<string[]>([]);
+    const [chosenSpecialty, setChosenSpecialty] = useState<string[]>([]);
     const [term, setTerm] = useState('');
     const [debouncedTerm, setDebouncedTerm] = useState(term);
   
@@ -18,14 +18,14 @@ export function Search() {
         const value = e.target.value
 
         if(isChecked) {
-            const temp = [...chosenSpeciality, value];
+            const temp = [...chosenSpecialty, value];
            
-            setChosenSpeciality(temp)
+            setChosenSpecialty(temp)
             filterBySpecialty(temp)
         } else {
-            const temp = chosenSpeciality.filter(item => item !== value);
+            const temp = chosenSpecialty.filter(item => item !== value);
             
-            setChosenSpeciality(temp)
+            setChosenSpecialty(temp)
             filterBySpecialty(temp)
         }
     }
@@ -49,8 +49,8 @@ export function Search() {
 
     // in case all are unchecked populate list again
     useEffect(() => {
-       if (chosenSpeciality.length === 0) filterByName('')
-    },[chosenSpeciality]) // @todo: warning
+       if (chosenSpecialty.length === 0) filterByName('')
+    },[chosenSpecialty]) // @todo: warning
 
     return (
         <Container>
