@@ -7,9 +7,6 @@ export function Header() {
         <Container>
             <Content>
                 <img src={ logoImg } alt="cosuno logo" />
-                <button type="button">
-                    New Company
-                </button>
             </Content>
         </Container>
     )

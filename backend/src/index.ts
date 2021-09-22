@@ -2,6 +2,8 @@ import express, { Request, Response, NextFunction } from 'express'
 import cors from 'cors'
 import bodyParser from 'body-parser'
 
+import companiesRouter from './companies/companies.controller'
+
 const app = express()
 const port = process.env.PORT || 3001
 
@@ -16,6 +18,8 @@ app.use((req: Request, res: Response, next: NextFunction) => {
 app.get('/health', (req, res) => {
   res.json({ isAlive: true })
 })
+
+app.use('/companies', companiesRouter)
 
 if (process.env.NODE_ENV !== 'test') {
   app.listen(port, () => {
