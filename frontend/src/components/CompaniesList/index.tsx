@@ -1,23 +1,9 @@
-import { useEffect, useState } from 'react'
-import { api } from '../../services/api'
+import { useContext } from 'react';
+import { CompaniesContext } from '../../CompaniesContext';
 import { Container } from './styles'
 
-interface Company { 
-  guid: string,
-  city: string,
-  companyName: string,
-  logo: string,
-  specialties: Array<string>
-}
-
 export function CompaniesList() {
-  const [companies, setCompanies] = useState<Company[]>([]);
-
-  useEffect(() => {
-    api.get('all')
-    .then(response => setCompanies(response.data))
-  },[])
-
+  const { companies } = useContext(CompaniesContext);
 
     return (
         <Container>
@@ -38,7 +24,7 @@ export function CompaniesList() {
                         <td><img src={ company.logo } alt="company logo" /></td>
                         <td>{company.companyName}</td>
                         <td>{company.city}</td>
-                        <td>{company.specialties}</td>
+                        <td>{company.specialties.join(', ')}</td>
                       </tr>
                    ))
                  }
